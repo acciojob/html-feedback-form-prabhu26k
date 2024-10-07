@@ -1,4 +1,66 @@
-label{
-	color:blue;
-	font-size:15px;
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form container styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Input fields and range slider styles */
+input[type="text"],
+input[type="url"],
+input[type="color"],
+input[type="range"] {
+    width: 100%;
+    padding: 10px 0 10p;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Range input slider styles */
+input[type="range"] {
+    background-color: #f0f0f0;
 }
